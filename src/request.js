@@ -1,8 +1,7 @@
-const API_URL =
-  "https://api.themoviedb.org/3/movie/550?api_key=98d0900d2381e5dd1f54e7c9cabbba3b";
+const API_URL = "98d0900d2381e5dd1f54e7c9cabbba3b";
 
 const requests = {
-  fetchTrending: `/trending/all/week?api_keys=${API_URL}&language=en-US`,
+  fetchTrending: `/trending/all/week?api_key=${API_URL}&language=en-US`,
   fetchNetflixOriginals: `/discover/tv?api_key=${API_URL}&with_networks=213`,
   fetchTopRated: `/movie/top_rated?api_key=${API_URL}&language=en-US`,
   fetchActionMovies: `/discover/movie?api_key=${API_URL}&with_genres=28`,
