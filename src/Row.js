@@ -47,8 +47,6 @@ const Row = ({ title, fetchUrl, isLargeRow }) => {
         })
         .catch((error) => {
           console.log("error", error);
-          // Handle error (e.g., movie not found)
-          // You can set a default trailer or show an error message to the user
         });
     }
   };
