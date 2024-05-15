@@ -2,6 +2,7 @@
   margin: 0;
 }
 .app {
+  overflow-x: hidden;
   background-color: #111;
 }
 body {
